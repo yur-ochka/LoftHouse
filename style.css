@@ -1,0 +1,14 @@
+body{
+    color: white;
+    background-color: #242B33;
+    margin: 0;
+}
+.header{
+    min-height: 840px;
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(img/header/background.jpg);
+}
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1140px;
+}
