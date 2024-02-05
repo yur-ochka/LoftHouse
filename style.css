@@ -3,9 +3,62 @@ body{
     background-color: #242B33;
     margin: 0;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: lightgrey;
+  }
+ul{
+    list-style-type: none;
+    
+}
 .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-height: 840px;
     background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(img/header/background.jpg);
+    padding-top: 30px;
+}
+.nav{
+    font-size: 14px;
+}
+.nav_list{
+    display: flex;
+    column-gap: 40px;
+}
+.header_top-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_center{
+    text-align: center;
+    font-size: 48px;
+    color: #b9a96f;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header_center-icon{
+    padding-top: 81px;
+}
+.header_buttom-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 74px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-right: 90px;
+    align-items:center;
 }
 .container{
     margin: 0 auto;
